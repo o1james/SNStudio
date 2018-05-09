@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created or Updated_1.current.loaned_item","label":"Trigger➛Loan Record➛Loaned Item","reference":"x_42628_media_libr_copy","reference_display":"Loaned Item","type":"reference","base_type":"reference","parent_table_name":"x_42628_media_libr_loan","column_name":"loaned_item"},{"name":"Created or Updated_1.current.active","label":"Trigger➛Loan Record➛Active","reference":"","reference_display":"Active","type":"boolean","base_type":"boolean","parent_table_name":"x_42628_media_libr_loan","column_name":"active"},{"name":"Created or Updated_1.current","label":"Trigger➛Loan Record","reference":"x_42628_media_libr_loan","reference_display":"Loan","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Update Copy status on Loan</name>
+        <parent_flow display_value="Update Copy status on Loan">77f9e0504f4213003512121f9310c76f</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 06:29:12</sys_created_on>
+        <sys_id>3fcd68144f4213003512121f9310c767</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Copy status on Loan</sys_name>
+        <sys_package display_value="Media Library" source="x_42628_media_libr">49c818944f0213003512121f9310c71c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Media Library">49c818944f0213003512121f9310c71c</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_3fcd68144f4213003512121f9310c767</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-09 06:29:12</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

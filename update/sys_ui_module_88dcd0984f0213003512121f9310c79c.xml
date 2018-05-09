@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Media Library">621ad4184f0213003512121f9310c744</application>
+        <filter table="x_42628_media_libr_loan">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <name>Active Loans</name>
+        <order>300</order>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_42628_media_libr.loan_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-09 05:14:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>88dcd0984f0213003512121f9310c79c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Active Loans</sys_name>
+        <sys_package display_value="Media Library" source="x_42628_media_libr">49c818944f0213003512121f9310c71c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Media Library">49c818944f0213003512121f9310c71c</sys_scope>
+        <sys_update_name>sys_ui_module_88dcd0984f0213003512121f9310c79c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-09 05:55:56</sys_updated_on>
+        <table>x_42628_media_libr_loan</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
